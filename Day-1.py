@@ -1,10 +1,5 @@
 To clone your GitHub repository into Visual Studio Code for the first time:
 
-git status
-git add .
-git commit -m "updated code"
-git push
-
 ## 1. Copy the repository URL from GitHub
 
 Open your repo:
@@ -60,9 +55,13 @@ Now the GitHub project is connected locally.
 
 After editing files:
 
-git add .
-git commit -m "updated code"
-git push
+
+after cloning, to push changes:
+1)git status
+2)git add .
+3)git commit -m "updated code"
+4)git push
+
 
 
 When you do:
