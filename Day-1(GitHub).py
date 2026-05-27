@@ -1,6 +1,4 @@
-# VS Code + Git + GitHub Complete Command Guide
-
-## Core Tools
+Core Tools
 
 1)GitHub is used to store and manage remote repositories, 
 2)Git is used for version control and tracking changes in code, and 
@@ -10,7 +8,7 @@
 
 Set your Git identity using username and email so commits are properly linked to you, then verify the configuration using git config --list.
 
-git config --global user.name "YourName"
+git config --global user.name "YourName" 
 git config --global user.email "[you@example.com](mailto:you@example.com)"
 git config --list
 
@@ -19,12 +17,12 @@ git config --list
 
 Clone an existing GitHub repository to your local system and open it in VS Code to start working on it.
 
-git clone [https://github.com/user/repo.git](https://github.com/user/repo.git)
+git clone [https://github.com/user/repo.git]
 cd repo
 code .
 
 
-## 3. Initialize New Repository
+## 3. Initialize New Repository  = if you want to cfreate an new repository.
 
 Initialize Git in a local project, connect it to a GitHub repository, and verify the remote connection.
 
